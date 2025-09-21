@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melodia - Sua Música, Sua Forma</title>
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6dcf5d9c53.js" crossorigin="anonymous"></script>
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-transparent">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold text-white">Melodia</h1>
+      <div class="space-x-6 hidden md:flex">
+        <a href="#beneficios" class="text-white hover:text-purple-200">Benefícios</a>
+        <a href="#funcionalidades" class="text-white hover:text-purple-200">Funcionalidades</a>
+        <a href="#depoimentos" class="text-white hover:text-purple-200">Depoimentos</a>
+        <a href="#form" class="text-white hover:text-purple-200">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-purple-600 text-white min-h-screen flex items-center">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between py-20 px-6">
+      <div class="md:w-1/2 space-y-6">
+        <h1 class="text-4xl md:text-5xl font-bold">Melodia: Sua Música, Sua Forma</h1>
+        <p class="text-lg">Descubra artistas, crie playlists e ouça suas músicas favoritas com qualidade superior.</p>
+        <a href="#form" class="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold shadow hover:bg-purple-100 transition">Ouvir Agora</a>
+      </div>
+      <div class="md:w-1/2 mt-8 md:mt-0">
+        <img src="https://cdn-icons-png.flaticon.com/512/727/727245.png" alt="App Melodia" class="w-80 mx-auto">
+      </div>
+    </div>
+  </header>
+
+  <!-- Benefícios -->
+  <section id="beneficios" class="py-16 px-6 container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-12 text-purple-600">Por que escolher o Melodia?</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="space-y-4">
+        <i class="fas fa-headphones-alt text-purple-600 text-5xl"></i>
+        <h3 class="font-semibold text-xl">Qualidade Superior</h3>
+        <p>Ouça suas músicas com áudio cristalino e experiência imersiva.</p>
+      </div>
+      <div class="space-y-4">
+        <i class="fas fa-list text-purple-600 text-5xl"></i>
+        <h3 class="font-semibold text-xl">Playlists Personalizadas</h3>
+        <p>Monte playlists do seu jeito, para cada momento.</p>
+      </div>
+      <div class="space-y-4">
+        <i class="fas fa-microphone text-purple-600 text-5xl"></i>
+        <h3 class="font-semibold text-xl">Descubra Novos Artistas</h3>
+        <p>Explore artistas emergentes e encontre novos sons.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Funcionalidades -->
+  <section id="funcionalidades" class="bg-purple-50 py-16 px-6">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 text-purple-600">Funcionalidades do App</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <i class="fas fa-mobile-alt text-purple-600 text-4xl mb-4"></i>
+          <h3 class="font-semibold text-lg">Interface Intuitiva</h3>
+          <p>Design simples e moderno para facilitar sua navegação.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <i class="fas fa-bell text-purple-600 text-4xl mb-4"></i>
+          <h3 class="font-semibold text-lg">Notificações Inteligentes</h3>
+          <p>Receba recomendações e novidades em primeira mão.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <i class="fas fa-users text-purple-600 text-4xl mb-4"></i>
+          <h3 class="font-semibold text-lg">Comunidade</h3>
+          <p>Compartilhe músicas e playlists com seus amigos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="py-16 px-6 container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-12 text-purple-600">O que dizem nossos usuários</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" class="w-16 h-16 rounded-full mx-auto mb-4">
+        <p>"O Melodia mudou a forma como eu escuto música. Simplesmente incrível!"</p>
+        <span class="block mt-3 font-semibold">Ana Souza</span>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-16 h-16 rounded-full mx-auto mb-4">
+        <p>"Qualidade de som absurda! Minhas playlists nunca foram tão boas."</p>
+        <span class="block mt-3 font-semibold">Carlos Lima</span>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://randomuser.me/api/portraits/men/85.jpg" class="w-16 h-16 rounded-full mx-auto mb-4">
+        <p>"Descobri novos artistas que nunca teria encontrado. Top!"</p>
+        <span class="block mt-3 font-semibold">João Pedro</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário de Contato -->
+  <section id="form" class="bg-purple-600 text-white py-16 px-6">
+    <div class="container mx-auto text-center max-w-lg">
+      <h2 class="text-3xl font-bold mb-6">Cadastre-se para novidades</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Seu nome" class="w-full px-4 py-3 rounded-lg text-gray-900">
+        <input type="email" placeholder="Seu e-mail" class="w-full px-4 py-3 rounded-lg text-gray-900">
+        <button type="submit" class="w-full bg-white text-purple-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-purple-100 transition">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+      <p>&copy; 2025 Melodia. Todos os direitos reservados.</p>
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="#"><i class="fab fa-facebook text-xl hover:text-purple-400"></i></a>
+        <a href="#"><i class="fab fa-instagram text-xl hover:text-purple-400"></i></a>
+        <a href="#"><i class="fab fa-twitter text-xl hover:text-purple-400"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script JS -->
+  <script>
+    const navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add("bg-purple-600", "shadow-lg");
+        navbar.classList.remove("bg-transparent");
+      } else {
+        navbar.classList.remove("bg-purple-600", "shadow-lg");
+        navbar.classList.add("bg-transparent");
+      }
+    });
+  </script>
+
+</body>
+</html>
