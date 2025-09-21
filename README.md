@@ -43,11 +43,10 @@ Criar uma **Landing Page responsiva** para divulgar o app **Melodia**, destacand
 
 ---
 
-## 🌐 Deploy
-A página foi publicada utilizando o **GitHub Pages**.  
-🔗 Link do projeto: [coloque o link do GitHub Pages aqui]  
+## Links importantes
 
-🔗 Repositório: [coloque o link do repositório aqui]  
+- Repositório GitHub: [https://github.com/fekolare/melodia-landing-page](https://github.com/fekolare/melodia-landing-page)  
+- Página publicada (GitHub Pages): [https://fekolare.github.io/melodia-landing-page/](https://fekolare.github.io/melodia-landing-page/)
 
 ---
 
